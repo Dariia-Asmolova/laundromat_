@@ -613,6 +613,12 @@ li {
     height: 400px;
   }
 }
+@media screen and (max-width: 375px), (max-width: 480px) {
+  .contact__map {
+    width: 300px;
+    height: 200px;
+  }
+}
 .contact .headline {
   padding: 12px 0;
 }
@@ -643,6 +649,11 @@ li {
 }
 .footer__form {
   padding-left: 60px;
+}
+@media screen and (max-width: 375px), (max-width: 480px) {
+  .footer__form {
+    padding-left: 10px;
+  }
 }
 .footer .form-input {
   padding: 16px;
