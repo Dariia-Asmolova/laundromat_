@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upstate Laundromat</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./main.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/3a25aada1b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <nav id="navbar" class="header__nav nav navbar">
+            <ul class="header__list nav__list">
+              <li class="header__item">
+                <a class="header__link" href="#home">
+                  <span class="fa fa-home"></span>
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#services">Services</a>
+              </li>
+              <li class="header__item li-left">
+                <a class="header__link" href="#amenities">Amenities</a>
+              </li>
+              <li class="header__item li-right">
+                <a class="header__link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#faq">FAQ</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <div id="burger" class="burger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+          <a class="header__logo" href="#"
+            ><img
+              class="logo__img"
+              src="/src/img/laundromat-logo.png"
+              alt="Upstate Laundromat"
+          /></a>
+        </div>
+        <section id="home" class="hero">
+          <div class="container">
+            <div class="hero__contant">
+              <h3 class="hero__subtitle">Modern &amp; upscale laundromat</h3>
+              <h1 class="hero__title">A Better Place to do Your Laundry</h1>
+              <button type="button" class="hero__btn">
+                <a class="btn_text" href="#contact"
+                  ><span class="fa fa-map-marker"></span>View Location</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section id="services" class="services">
+        <div class="container">
+          <div class="services__content">
+            <div class="services__item">
+              <img
+                class="services__img"
+                src="/src/img/coin_and_coinless.png"
+                alt=""
+              />
+              <h2 class="services__title">Coin &amp; coinless machines</h2>
+              <p class="services__text">
+                Our environmentally friendly Huebsch® machines use less water
+                and dry faster so you are done fast! You can pay with coins, the
+                Upstate Laundromat loyalty card, Visa, or MasterCard.
+              </p>
+            </div>
+            <div class="services__item">
+              <img
+                class="services__img"
+                src="/src/img/folded-shirt-icon.png"
+                alt=""
+              />
+              <h2 class="services__title">
+                Fluff &amp; fold service available
+              </h2>
+              <p class="services__text">
+                Don’t waste valuable time doing your own laundry. Let us handle
+                it for you! Offered 7 days a week, same day or next day
+                available. We will notify you when your laundry is done via
+                text.
+              </p>
+            </div>
+            <div class="services__item">
+              <img
+                class="services__img"
+                src="/src/img/loyalty-card-icon.png"
+                alt=""
+              />
+              <h2 class="services__title">Loyalty Discounts</h2>
+              <p class="services__text">
+                Use your Upstate Laundromat personal loyalty card to earn
+                special discounts over time. Make sure to register your card by
+                <a
+                  class="services__click"
+                  target="_blank"
+                  href="https://m.fascard.com/#Login"
+                  >clicking here</a
+                >
+                or by downloading the Fascard Mobile app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="amenities" class="amenities">
+        <div class="container">
+          <div class="amenities__content">
+            <h2 class="amenities__title">
+              We are on a mission to change the <br />
+              laundromat experience
+            </h2>
+            <span class="amenities__text">Here's what we offer:</span>
+          </div>
+          <div class="amenities__box">
+            <ul class="amenities__list">
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/wifi-icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Free Wifi</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/snowflake-icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Air conditioning</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/chair_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Comfortable seating</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/cafe_table_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Cafe table</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/charger_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Charging stations</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/hdtv_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">5 HD 55" TVs</h3>
+              </li>
+              <li>
+                <img class="amenities__img" src="/src/img/wm.png" alt="" />
+                <h3 class="amenities__caption">35 hi tech machines</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/ipad_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Kid's Zone</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/attendant_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">On-site attendant</h3>
+              </li>
+              <li>
+                <img
+                  class="amenities__img"
+                  src="/src/img/security_camera_icon.png"
+                  alt=""
+                />
+                <h3 class="amenities__caption">Security cameras</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="wpas">
+        <div class="container">
+          <div class="wpas__content">
+            <h2 class="wpas__title">What People Are Saying</h2>
+            <div class="wpas__block">
+              <div class="wpas__aside">
+                <p class="wpas__pers">
+                  Gerss Buezo <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <img class="wpas__img" src="/src/img/google_sm.png" alt="" />
+                <span class="wpas__date">Oct 23, 2023</span>
+              </div>
+            </div>
+            <div class="wpas__block">
+              <div class="wpas__aside">
+                <p class="wpas__pers">
+                  ebony blaq <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star notchecked"></span>
+                  <span class="fa fa-star notchecked"></span>
+                </p>
+                <img class="wpas__img" src="/src/img/google_sm.png" alt="" />
+                <span class="wpas__date">Aug 8, 2023</span>
+              </div>
+            </div>
+            <div class="wpas__block">
+              <div class="wpas__aside">
+                <p class="wpas__pers">
+                  kimir kingdom <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <img class="wpas__img" src="/src/img/google_sm.png" alt="" />
+                <p class="wpas__date">Jul 7, 2023</p>
+                <p class="wpas__text">
+                  Gast hot dryers! In and out! Best by far!
+                </p>
+              </div>
+            </div>
+            <div class="wpas__block">
+              <div class="wpas__aside">
+                <p class="wpas__pers">
+                  zandra butler <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <img class="wpas__img" src="/src/img/google_sm.png" alt="" />
+                <span class="wpas__date">Jun 30, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <h2 class="faq__title">Frequently Asked Questions</h2>
+          <div class="accordion">
+            <div>
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                  <span class="accordion-title">What are your hours?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>We're open 7 days/week from 8am to 10pm.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title"
+                    >What is the last wash time?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    The posted time for starting the last wash is 9:00 PM. This
+                    typically allows enough time for our customers to finish
+                    washing, drying and folding their clothes by 10:00 PM.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Is coin-less laundry really coin-less?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    All the machines work with a laundry card – you don’t need
+                    to bring quarters. You can use cash, VISA or MasterCard to
+                    add value to a laundry card that may be re-loaded as you use
+                    up the balance on your card.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title"
+                    >How do I get a new laundry card?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    You may get a laundry card by visiting the VTM (Value
+                    Transfer Machine) at the back of the store. Follow the
+                    simple steps to get a laundry card and add value by
+                    inserting cash, VISA or MasterCard. You can add money to the
+                    card as needed. Our friendly staff is always available to
+                    assist you if you need help with your transaction. There is
+                    also an available mobile app, directions can be loacted near
+                    the kiosk at the back of the store.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false">
+                  <span class="accordion-title"
+                    >How do I add money to the card?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    You can add money to your card using cash, VISA or
+                    MasterCard at the VTM (Value Transfer Machine) next to the
+                    office. Please see the attendant if you need any assistance
+                    with your transaction. You can also register your card with
+                    Fascard by
+                    <a class="faq-click" href="https://m.fascard.com/#Login"
+                      >clicking here</a
+                    >
+                    or by downloading the Fascard Mobile Apple with Apple &amp;
+                    Android)
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-6" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Is my laundry card reusable/reloadable?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Yes, the card will retain any unused balance for future
+                    visits and can be reused and reloaded as often as needed.
+                    You can reload your Fascard by
+                    <a class="faq-click" href="https://m.fascard.com/#Login"
+                      >clicking here</a
+                    >
+                    or download their app in your devices app store. Please note
+                    that other laudromats use the same system, however our cards
+                    only work at our location.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="accordion-item">
+                <button id="accordion-button-7" aria-expanded="false">
+                  <span class="accordion-title"
+                    >How do I register my laundry card?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Registration can be completed by downloading the FasCard
+                    Mobile App, or by
+                    <a class="faq-click" href="https://m.fascard.com/#Login"
+                      >clicking here</a
+                    >
+                    Registration is very important because it allows you to
+                    receive dicounts throughout the year and if you lose your
+                    laundry card we can trasnfer the money to a new one.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-8" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Why is the front load washer often a better choice?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Top load washers are smaller capacity and less efficient.
+                    Front washers provide a better wash and are gentler on your
+                    garments due to their tumbling action. They need less soap
+                    (for example a double load front load washer will need about
+                    1 1/2 load’s worth of soap). Front load washers are better
+                    value and more environmentally friendly.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-9" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Can I wash my pillows in a front load washer?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    You can – but you need to aware of a few things. Pillows can
+                    sometimes be damaged during wash and may lose stuffing or
+                    lose it’s shape. Please use your best judgment.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-10" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Can I wash a down comforter?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Comforters with down fillings take longer to dry. You may
+                    need to air dry them at home to get the moisture out. Please
+                    take care to dry them completely to prevent mildew.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-11" aria-expanded="false">
+                  <span class="accordion-title"
+                    >How do I add time to the dryers?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    You can add any amount of time to the dryer by inserting
+                    your laundry card into the dryer until the desired drying
+                    time is reached. Then press the START button. Please
+                    remember to take the card with you when you are done adding
+                    time to the dryer.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button id="accordion-button-12" aria-expanded="false">
+                  <span class="accordion-title"
+                    >What items should NOT be put in the dryer?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Anything with rubber should NOT be placed into the dryers on
+                    any temperature other than “air dry”. This includes all
+                    shoes and rugs with rubber backing, or any other item that
+                    is made with any rubber or plastic materials. They may
+                    become damaged and misshapen after being placed in the
+                    dryer. Items containing rubber or plastic are not permitted
+                    in the dryers for this reason.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact__content">
+            <div class="contact__aside">
+              <h2 class="contact__title">Contact</h2>
+              <a
+                class="contact__facebook"
+                href="https://www.facebook.com/upstatelaundromat/?modal=admin_todo_tour"
+                target="_blank"
+                ><span class="fa fa-facebook"></span
+              ></a>
+
+              <div class="contact__info">
+                <span class="fa fa-map-marker headline">Location</span>
+                <p class="contact__text">
+                  2600 Anderson Rd Greenville, SC 29611
+                </p>
+              </div>
+              <div class="contact__info">
+                <span class="fa fa-building headline">Hours</span>
+                <p class="contact__text">
+                  Open every day from 8am-10pm (Last wash at 8pm)
+                </p>
+              </div>
+              <div class="contact__info">
+                <span class="fa fa-envelope headline">Email</span>
+                <p>
+                  <a
+                    class="contact__mail"
+                    href="mailto:info@upstatelaundromat.com"
+                    >info@upstatelaundromat.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <iframe
+                class="contact__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13102.2379236912!2d-82.45202286254973!3d34.817023160154136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8858308faec0ae91%3A0x6958e29fe7a3f400!2s2600%20Anderson%20Rd%2C%20Greenville%2C%20SC%2029611!5e0!3m2!1sen!2sus!4v1699192171123!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title">Join our mailing list for 10% off!</h2>
+        <div class="footer__content">
+          <form class="footer__form" action="URL" method="get">
+            <input
+              id="email"
+              class="form-input"
+              name="email"
+              x-autocompletetype="email"
+              autocomplete="email"
+              type="email"
+              spellcheck="false"
+              placeholder="Email Address"
+            />
+            <input class="footer__btn" type="submit" value="Sign up" />
+          </form>
+
+          <div>
+            <p class="footer__info">
+              info@upstatelaundromat.com | 2600 Anderson Rd, Greenville SC 29611
+              © 2018 Upstate Laundromat. All rights reserved. Site by
+              <a
+                class="footer__click"
+                target="_blank"
+                href="http://knapsackcreative.com/"
+                >Knapsack</a
+              >.
+            </p>
+          </div>
+          <img class="footer__logo" src="/src/img/u-logo.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
