@@ -30,6 +30,14 @@ li {
   margin-top: 16px;
   right: 300px;
 
+  @media screen and (max-width: 700px), (max-width: 900px) {
+    right: 300px;
+  }
+
+  @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+    right: 200px;
+  }
+
   .bar {
     display: block;
     width: 40px;
@@ -206,6 +214,15 @@ li {
   width: 100%;
   margin: 192px auto 0 auto;
 
+  &__content {
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 700px),
+      (max-width: 900px) {
+      max-width: 350px;
+    }
+  }
+
   &__subtitle {
     width: 100%;
     color: rgb(255, 255, 255);
@@ -213,6 +230,13 @@ li {
     font-weight: 500;
     margin-top: 16px;
     margin-bottom: 32px;
+
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 700px),
+      (max-width: 900px) {
+      font-size: 20px;
+    }
   }
 
   &__title {
@@ -221,6 +245,13 @@ li {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 64px;
+
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 700px),
+      (max-width: 900px) {
+      font-size: 40px;
+    }
   }
 
   &__btn {
@@ -252,11 +283,16 @@ li {
     align-items: center;
     padding: 68px 34px;
 
+    @media screen and (max-width: 700px), (max-width: 900px) {
+      flex-wrap: wrap;
+      padding: 30px 120px;
+    }
+
     @media screen and (max-width: 375px),
       (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
+      (max-width: 510px) {
       flex-wrap: wrap;
+      padding: 5px 0;
     }
   }
 
@@ -268,12 +304,16 @@ li {
     height: 250px;
     width: 350px;
 
+    @media screen and (max-width: 700px), (max-width: 900px) {
+      width: 450px;
+      height: 340px;
+    }
+
     @media screen and (max-width: 375px),
       (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
-      width: 550px;
-      height: 400px;
+      (max-width: 510px) {
+      width: 390px;
+      height: 295px;
     }
   }
 
@@ -289,11 +329,15 @@ li {
     text-align: center;
     padding: 17px;
 
+    @media screen and (max-width: 700px), (max-width: 900px) {
+      font-size: 20px;
+      max-width: 400px;
+    }
+
     @media screen and (max-width: 375px),
       (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
-      font-size: 20px;
+      (max-width: 510px) {
+      max-width: 300px;
     }
   }
 
@@ -308,12 +352,15 @@ li {
     color: #5c5c5c;
     text-align: center;
 
+    @media screen and (max-width: 700px), (max-width: 900px) {
+      font-size: 20px;
+      max-width: 400px;
+    }
+
     @media screen and (max-width: 375px),
       (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
-      font-size: 20px;
-      min-width: 500px;
+      (max-width: 510px) {
+      max-width: 300px;
     }
   }
 
@@ -800,6 +847,7 @@ li {
     border-radius: 30px;
     padding: 16px 35px;
     cursor: pointer;
+    margin-top: 40px;
   }
 
   &__info {
@@ -817,6 +865,14 @@ li {
   &__logo {
     width: 350px;
     height: 120px;
+
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 700px),
+      (max-width: 900px) {
+      width: 300px;
+      height: 100px;
+    }
   }
 
   &__click {
