@@ -35,7 +35,7 @@ li {
   }
 
   @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
-    right: 200px;
+    right: 150px;
   }
 
   .bar {
@@ -70,6 +70,10 @@ li {
 .header {
   background-image: url(../src/img/banner.png);
   background-size: 150% 150%;
+
+  @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+    background-size: auto;
+  }
 
   &__logo {
     position: absolute;
@@ -176,6 +180,10 @@ li {
   z-index: 5000;
   width: 5%;
   background: #c23f3e;
+
+  @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+    width: 15%;
+  }
 }
 
 .navbar {
@@ -312,8 +320,8 @@ li {
     @media screen and (max-width: 375px),
       (max-width: 480px),
       (max-width: 510px) {
-      width: 390px;
-      height: 295px;
+      width: 300px;
+      height: 218px;
     }
   }
 
@@ -459,14 +467,17 @@ li {
     text-transform: uppercase;
     line-height: 23px;
 
-    @media screen and (max-width: 375px),
-      (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
+    @media screen and (max-width: 700px), (max-width: 900px) {
       font-size: 40px;
       line-height: 40px;
       width: 245px;
       max-width: 245px;
+    }
+
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 510px) {
+      font-size: 30px;
     }
   }
 
@@ -510,16 +521,14 @@ li {
     padding-bottom: 40px;
     margin-left: 338px;
 
-    @media screen and (max-width: 375px),
-      (max-width: 480px),
-      (max-width: 640px) {
-      margin-left: 0;
+    @media screen and (max-width: 700px), (max-width: 900px) {
+      margin-left: 200px;
     }
 
     @media screen and (max-width: 375px),
-      (max-width: 700px),
-      (max-width: 900px) {
-      margin-left: 200px;
+      (max-width: 480px),
+      (max-width: 510px) {
+      margin-left: 0;
     }
   }
 
@@ -814,7 +823,7 @@ li {
     font-family: "Open Sans";
     font-weight: 500;
     font-size: 30px;
-    line-height: 19px;
+    line-height: 35px;
     letter-spacing: 0.16px;
   }
 
@@ -872,6 +881,13 @@ li {
       (max-width: 900px) {
       width: 300px;
       height: 100px;
+    }
+
+    @media screen and (max-width: 375px),
+      (max-width: 480px),
+      (max-width: 510px) {
+      width: 230px;
+      height: 75px;
     }
   }
 

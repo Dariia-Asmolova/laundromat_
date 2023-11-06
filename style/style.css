@@ -37,7 +37,7 @@ li {
 }
 @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
   .burger {
-    right: 200px;
+    right: 150px;
   }
 }
 .burger .bar {
@@ -70,6 +70,11 @@ li {
 .header {
   background-image: url(../src/img/banner.png);
   background-size: 150% 150%;
+}
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+  .header {
+    background-size: auto;
+  }
 }
 .header__logo {
   position: absolute;
@@ -156,6 +161,11 @@ li {
   z-index: 5000;
   width: 5%;
   background: #c23f3e;
+}
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+  .mob_active {
+    width: 15%;
+  }
 }
 
 .navbar_scrolled {
@@ -272,8 +282,8 @@ li {
 }
 @media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
   .services__img {
-    width: 390px;
-    height: 295px;
+    width: 300px;
+    height: 218px;
   }
 }
 .services__title {
@@ -400,12 +410,17 @@ li {
   text-transform: uppercase;
   line-height: 23px;
 }
-@media screen and (max-width: 375px), (max-width: 480px), (max-width: 700px), (max-width: 900px) {
+@media screen and (max-width: 700px), (max-width: 900px) {
   .amenities__caption {
     font-size: 40px;
     line-height: 40px;
     width: 245px;
     max-width: 245px;
+  }
+}
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+  .amenities__caption {
+    font-size: 30px;
   }
 }
 .amenities__img {
@@ -442,14 +457,14 @@ li {
   padding-bottom: 40px;
   margin-left: 338px;
 }
-@media screen and (max-width: 375px), (max-width: 480px), (max-width: 640px) {
-  .wpas__block {
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 375px), (max-width: 700px), (max-width: 900px) {
+@media screen and (max-width: 700px), (max-width: 900px) {
   .wpas__block {
     margin-left: 200px;
+  }
+}
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+  .wpas__block {
+    margin-left: 0;
   }
 }
 .wpas__aside {
@@ -693,7 +708,7 @@ li {
   font-family: "Open Sans";
   font-weight: 500;
   font-size: 30px;
-  line-height: 19px;
+  line-height: 35px;
   letter-spacing: 0.16px;
 }
 .footer__form {
@@ -746,6 +761,12 @@ li {
   .footer__logo {
     width: 300px;
     height: 100px;
+  }
+}
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 510px) {
+  .footer__logo {
+    width: 230px;
+    height: 75px;
   }
 }
 .footer__click {
