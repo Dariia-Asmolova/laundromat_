@@ -68,7 +68,7 @@ li {
 }
 
 .header {
-  background-image: url(/src/img/banner.png);
+  background-image: url(../src/img/banner.png);
   background-size: 150% 150%;
 
   &__logo {
@@ -370,7 +370,7 @@ li {
 }
 
 .amenities {
-  background: url(/src/img/banner-5.png);
+  background: url(../src/img/banner-5.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 270px;
