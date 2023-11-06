@@ -58,7 +58,7 @@ li {
 }
 
 .header {
-  background-image: url(./src/img/banner.png);
+  background-image: url(/src/img/banner.png);
   background-size: 150% 150%;
 }
 .header__logo {
@@ -277,7 +277,7 @@ li {
 }
 
 .amenities {
-  background: url(//src/img/banner-5.png);
+  background: url(/src/img/banner-5.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 270px;
@@ -607,7 +607,7 @@ li {
 .contact__text {
   max-width: 180px;
 }
-@media screen and (max-width: 375px), (max-width: 480px), (max-width: 700px), (max-width: 900px) {
+@media screen and (max-width: 700px), (max-width: 900px) {
   .contact__map {
     width: 500px;
     height: 400px;

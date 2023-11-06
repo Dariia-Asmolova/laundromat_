@@ -60,7 +60,7 @@ li {
 }
 
 .header {
-  background-image: url(./src/img/banner.png);
+  background-image: url(/src/img/banner.png);
   background-size: 150% 150%;
 
   &__logo {
@@ -323,7 +323,7 @@ li {
 }
 
 .amenities {
-  background: url(./src/img/banner-5.png);
+  background: url(/src/img/banner-5.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 270px;
@@ -727,10 +727,7 @@ li {
   }
 
   &__map {
-    @media screen and (max-width: 375px),
-      (max-width: 480px),
-      (max-width: 700px),
-      (max-width: 900px) {
+    @media screen and (max-width: 700px), (max-width: 900px) {
       width: 500px;
       height: 400px;
     }
